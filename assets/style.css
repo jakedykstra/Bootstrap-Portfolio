@@ -52,12 +52,8 @@ body{
 }
 
 .me{
- /* object-fit: contain; */
-width: 100%;
-height: 200px;
-max-height: auto;
-/* padding: 20px; */
-margin: 10px;
+display: inline;
+float: left;
 }
 
 .full {
@@ -65,12 +61,12 @@ margin: 10px;
   height: 500px;
 }
 
-.col-md-6 {
+/* .col-md-6 {
   padding: none;
-}
+} */
 
 p{
-   word-wrap: break-word;
+   word-wrap: wrap;
    font-size: 18px;
    line-height: 24px;
    padding-bottom: 10px;
@@ -82,9 +78,13 @@ p{
   position: absolute; 
   top: 150px;
   text-align: center;
-  padding: 10px;
+  padding: 7px;
   color: #ffffff;
   width: 300px;
+}
+
+img {
+  vertical-align: none;
 }
 
 .inputs {
@@ -118,10 +118,6 @@ footer{
    border-top: 3px solid #4aaaa5;
    /* width: 120%; */
    /* margin-left: -10%; */
-}
-
-.lets-wrap {
-  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 640px){
